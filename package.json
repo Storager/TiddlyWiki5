@@ -31,6 +31,6 @@
     "node": ">=0.8.2"
   },
   "scripts": {
-    "start": "./tiddlywiki.js /data/wiki --init server && ./tiddlywiki.js /data/wiki --server 8080 $:/core/save/all text/plain text/html C4User @ccentUre 0.0.0.0"
+    "start": "(./tiddlywiki.js /data/wiki --init server || true )&& ./tiddlywiki.js /data/wiki --server 8080 $:/core/save/all text/plain text/html C4User @ccentUre 0.0.0.0"
   }
 }
